@@ -1,0 +1,222 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Titillium",sans-serif;
+    font-weight: 400;
+    margin: 0;
+    animation: transform-in 1s ease forwards;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+@keyframes transform-in {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.glass-pane {
+    background-color: rgba(255,255,255,0.06);
+    border-left: 3px solid rgba(255,255,255,0.2);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10000;
+    animation: remove-pane 1s forwards;
+    animation-delay: 400ms;
+}
+
+@keyframes remove-pane {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(100vw, 0, 0);
+    }
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    padding: 15px;
+}
+#logo {
+    margin-bottom: 35px;
+}
+
+
+#backdrop {
+    background-image: url('/img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(1px);
+    opacity: 0.9;
+}
+
+#coming-soon {
+    color: #ffffff;
+}
+
+.countdown {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid rgba(255,255,255,.1);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	font-family: "Titillium", sans-serif;
+}
+
+ul.social-links {
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.8em;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.social-links>li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 33px;
+}
+
+ul.social-links>li .fa {
+    margin-right: 15px;
+    width: 25px;
+    font-size: 25px;
+}
+
+ul.social-links>li .fa-twitter {
+    color: #1da1f2;
+}
+
+ul.social-links>li .fa-steam {
+    color: #BAB8B6;
+}
+
+ul.social-links>li .fa-exclamation {
+    color: #41ec71;
+}
+
+ul.social-links>li .fa-envelope {
+    color: #ffffff;
+}
+
+a {
+    color: #32A354;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #41ec71;
+    text-decoration: underline;
+}
+
+
+
+input {
+    background-color: transparent;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+    margin: 0 15px;
+    color: #919293;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+input::-webkit-input-placeholder {
+    color: #4C5356;
+}
+
+#mc_embed_signup {
+    background: transparent !important;
+}
+
+#mce-success-response {
+    color: #32A354;
+    font-size: 12px;
+}
+
+#mce-error-response {
+    color: #CF3D40;
+    font-size: 12px;
+}
+
+#mc_embed_signup_scroll {
+    display: flex;
+}
+
+#mc_embed_signup .mc-field-group {
+    padding-bottom: 0;
+    width: 100%;
+}
+
+#mc_embed_signup form {
+    padding: 0 !important;
+}
+
+#mc_embed_signup .mc-field-group {
+    min-height: auto !important;
+}
+
+#mc_embed_signup .button {
+    background-color: transparent !important;
+    border: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    left: 0;
+    font-size: 10px !important;
+    color: #32A354 !important;
+    transition: 500ms ease all;
+}
+
+#mc_embed_signup .button:hover {
+    color: #41ec71 !important;
+}
+
+.mce_inline_error:not(input) {
+    display: none !important;
+}
+
+input.mce_inline_error {
+    border-color: #CF3D40 !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    margin: 0 15px !important;
+    background-color: transparent !important;
+    color: #CF3D40 !important;
+    font-size: 11px !important;
+}
+
+input#mce-EMAIL {
+    padding: 5px 0 !important;
+    border-radius: 0 !important;
+}

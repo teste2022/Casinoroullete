@@ -1,0 +1,155 @@
+.table td {
+    text-align: center;
+    font-weight: 600;
+}
+
+.my-profile .stats .stats-won .value {
+    color: #41ec71 !important;
+}
+
+.my-profile .stats .stats-lost .value {
+    color: #882d2c;
+}
+
+.my-profile .stats .stats-profit .value {
+    color: #41ec71;
+}
+
+table {
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: #1a2327;
+}
+
+table thead {
+    background-color: #1a2327;
+    border-spacing: 0;
+    border-bottom: none;
+    border-top: 10px solid #1c262a!important;
+    border-bottom: 10px solid #1c262a!important;
+}
+
+.my-profile .stats {
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 0px solid #161616;
+    background: #192125;
+    border-bottom: 0px solid #192125;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    border-top: 15px solid #1c262a!important;
+}
+
+label {
+    font-weight: 600!important;
+}
+
+.table input, .table select {
+    background: #161D20;
+    color: #4F5E64;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.table {
+    font-weight: 600;
+    border-top: 10px solid #1c262a!important;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-bottom: 10px solid #1c262a!important;
+}
+
+.my-profile .stats .stats-won {
+    border-right: 0px solid #1c262a;
+}
+
+.my-profile .stats .stats-lost {
+    border-right: 0px solid #161616;
+}
+
+.my-profile {
+    max-width: none !important;
+    margin: 0 auto;
+    border-top: 0px solid #ffcc01;
+    background: #182023;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.3em 1em;
+    margin: auto;
+    margin-right: 15px;
+    margin-left: 0px;
+    text-align: center;
+    text-decoration: none!important;
+    cursor: pointer;
+    border: 0px solid transparent;
+    background: #161d20;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.box-padded-header {
+    padding: 5px 5px 5px;
+}
+
+.table .dataTables_wrapper .dataTables_paginate .paginate_button[id*=next] {
+    color: #41ec71;
+}
+
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    color: transparent;
+    padding-top: .755em;
+}
+
+.my-profile .stats>div .label {
+    text-transform: none;
+}
+
+.table th {
+    text-transform: none;
+}
+
+td, th {
+    padding-top: 3px;
+}
+
+
+td, th {
+    padding: 5px;
+}
+
+table.dataTable, table.dataTable td, table.dataTable th {
+    box-sizing: content-box;
+    text-align: center;
+}
+
+table.dataTable thead .sorting {
+    background-image: none!important;
+    width: auto !important;
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: none !important;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: none !important;
+}
+
+.table .dataTables_wrapper .dataTables_paginate .paginate_button {
+    text-transform: none !important;
+    color: #2e3f46 !important;
+}

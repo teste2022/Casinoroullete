@@ -1,0 +1,25 @@
+.preloader img{width:auto;position:absolute;top:50%;transform:translateY(-50%);right:0;left:0;display:block;margin:0 auto}
+.preloader{background:#141c20;position:fixed;width:100%;height:100%;top:0;left:0;z-index:999999999}
+.page-content .inner-content.home .section-welcome .devices .device.phone{bottom:-10px;z-index:4;left:15%;width:120px}
+.page-content .inner-content.home .section-welcome .devices .device.tablet{bottom:-20px;z-index:3;right:15%;width:250px}
+.page-content .inner-content.home .section-welcome .devices .device:hover{z-index:5;transform:scale(1.1)}
+.page-content .inner-content.home .section-stats{background:#0a0e11;padding:15px 8px;font-family:"Titillium",sans-serif}
+.page-content .inner-content.home .section-stats .intro{width:90%;max-width:900px;text-align:center;margin:50px auto 60px}
+.page-content .inner-content.home .section-stats .intro .header{font-family:"Titillium",sans-serif;color:#0087dc;font-size:35px;font-weight:bold}
+.page-content .inner-content.home .section-stats .intro p{font-family:"Titillium",sans-serif;color:#eee}.page-content .inner-content.home .section-stats .statistics{margin:0}
+.page-content .inner-content.home .section-stats .value{color:#0087dc}
+.page-content .inner-content.home .section-stats .label{color:#eee}
+.page-content .inner-content.home .section-features{background:#0a0e11;padding:15px 8px}
+.page-content .inner-content.home .section-features .feature{color:#0087dc}
+.page-content .inner-content.home .section-features .feature i{font-size:80px}
+.page-content .inner-content.home .section-features .feature h2{font-family:"Titillium",sans-serif;margin-top:0}
+.page-content .inner-content.home .section-features .feature p{font-family:"Titillium",sans-serif;color:#eee}
+.page-content .inner-content.home .section-features-large{background:#0a0e11;padding:15px 8px}
+.page-content .inner-content.home .section-features-large .item .img-container{display:flex;align-items:center}
+.preloader {
+    background: #141c20!important;
+}
+
+.preloader img {
+    width: auto;
+}

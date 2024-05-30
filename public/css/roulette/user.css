@@ -1,0 +1,195 @@
+.controls1 {
+    height: 140px;
+    display: -ms-flexbox;
+    display: flex;
+    background: #2c2c2c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.roulette .btn-multi img:hover {
+    width: 60px!important;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px #41ec71,0 0 0 0 #41ec71!important;
+	transition: all .3s !important;
+}
+
+.roulette .btn-multi img {
+    width: 60px!important;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 #41ec71,0 0 0 0 #41ec71!important;
+	transition: all .3s !important;
+}
+
+.roulette .controls .amount input {
+    width: calc(100% - 180px);
+    height: 40px;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    color: #fefefe;
+    padding-left: 10px;
+    background: #182126;
+    font-weight: 600 !important;
+}
+
+.roulette .balance-latest .latest:before {
+    content: "" !important;
+    padding: 0 10px;
+}
+
+.roulette .roulette-wheel-outer .rolling .rolling-inner {
+    text-align: center;
+    color: #fefefe;
+    font-size: 12px;
+    font-weight: 400;
+	margin-top: -5px;
+}
+
+.roulette .balance-latest .latest .last {
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.roulette .balance-latest .latest:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background: linear-gradient(90deg,rgb(26, 35, 39),#1a2327) !important;
+    height: 100%;
+    width: 40%;
+    pointer-events: none;
+}
+
+.roulette .balance-latest {
+    display: flex;
+    height: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px;
+    background: rgb(26, 35, 39);
+    border-top: 2px solid rgb(26, 35, 39);
+    border-bottom: 2px solid rgb(26, 35, 39);
+    margin: 1em 0px 0px;
+}
+
+.roulette .btn-multi img {
+    width: 60px !important;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.roulette .bets .bet-box .bet-info .total-bet {
+    width: 30%;
+    margin: 15px 30px;
+    background: #161d20;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.roulette .controls .buttons .button {
+    height: 40px;
+    color: #fefefe;
+    background: #161d20;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    width: calc(12.5% - 10px);
+}
+
+.roulette .controls .buttons .button:hover {
+    height: 40px;
+    color: #fefefe;
+    background: #161d20;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    width: calc(12.5% - 10px);
+}
+
+.roulette .bets .bet-box .bet-info .total-bet {
+    width: 30%;
+    margin: 15px 30px;
+    background: #161d20;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+section#roulette-section div.box div.box-section.bet-amount {
+    flex: 1;
+    padding: 0 1em!important;
+}
+
+section#roulette-section div.box div.box-section.bet-amount button[type=submit] {
+    border: none;
+    height: 40px;
+    width: 40%;
+    margin-left: 4%;
+    color: #ffffff;
+}
+
+section#roulette-section div.entrants {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section#roulette-section div.entrants div.box div.header {
+    width: 100%;
+    display: flex;
+    background-color: #1A2327;
+}
+
+.roulette .balance-latest .latest .green-last-color {
+    background-image: url(/img/coins/gg.png) !important;
+}
+
+section#roulette-section div.entrants div.box {
+    flex-direction: column;
+    width: auto;
+    width: 100%;
+}
+
+.roulette .btn-multi.active img {
+    box-shadow: 0 0 20px #41ec71,0 0 0 2px #41ec71!important;
+	transition: all .3s !important;
+}
+
+.roulette .controls .play .btn-play {
+    border: none;
+    height: 40px;
+    width: 40%;
+    margin-left: 4%;
+    color: #ffffff;
+	background-color: rgba(65, 236, 113, .65);
+	border-radius: 0px;
+}
+
+.roulette .controls .play .btn-play:hover {
+    border: none;
+    height: 40px;
+    width: 40%;
+    margin-left: 4%;
+    color: #ffffff;
+	background-color: rgba(65, 236, 113, .65);
+	border-radius: 0px;
+}

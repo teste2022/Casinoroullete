@@ -1,0 +1,135 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: transparent;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.modal-content {
+    position: fixed;
+    bottom: 15px;
+    background-color: transparent;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    border-radius: 0px;
+    border: 0px solid transparent;
+}
+
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 0px 0px rgb(22, 29, 32);
+}
+
+.close {
+    color: white;
+    float: left;
+    font-size: 0px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 0px 0px;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+.roulette .controls .play .btn-play {
+    outline: 0!important;
+    border: 0!important;
+    height: 75px!important;
+    width: 75%!important;
+    color: #fff!important;
+    background: rgba(65,236,113,.65)!important;
+    cursor: pointer!important;
+    text-transform: none!important;
+    border-radius: 0px!important;
+    font-weight: 600!important;
+    border: 0px solid rgba(65,236,113,.65)!important;
+    transition: all .3s!important;
+    font-family: Open Sans,sans-serif!important;
+    font-size: 25px!important;
+}
+
+.roulette .controls .play .btn-play:hover {
+    outline: 0!important;
+    border: 0!important;
+    height: 75px!important;
+    width: 75%!important;
+    color: #fff!important;
+    background: #41ec71!important;
+    cursor: pointer!important;
+    text-transform: none!important;
+    border-radius: 0px!important;
+    font-weight: 600!important;
+    border: 0px solid #41ec71!important;
+    transition: all .3s!important;
+    font-family: Open Sans,sans-serif!important;
+    font-size: 25px!important;
+}
+
+.roulette .controls .color-select .btn-multi img:hover {
+    width: 75px!important;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px #41ec71,0 0 0 0 #41ec71!important;
+	transition: all .3s !important;
+	margin-bottom: 15px;
+}
+
+.roulette .controls .color-select .btn-multi img {
+    width: 75px!important;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 #41ec71,0 0 0 0 #41ec71!important;
+    transition: all .3s!important;
+    margin-bottom: 15px;
+}
+
+.roulette .controls .color-select .btn-multi.active img {
+    box-shadow: 0 0 20px #41ec71,0 0 0 2px #41ec71!important;
+    transition: all .3s!important;
+    margin-bottom: 15px;
+}
+
+.modal-header {
+    min-height: 0px;
+    padding: 0px;
+    height: 0px;
+    border-bottom: 0px solid #e5e5e5;
+    background: #49c373;
+    margin-bottom: -50px;
+}

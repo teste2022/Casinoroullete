@@ -1,0 +1,7 @@
+cd public
+cd ..
+composer dump-autoload
+composer update
+
+diretorio do app blade 
+html\resources\views\layouts
